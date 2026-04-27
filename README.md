@@ -11,11 +11,16 @@ A Smart Thermostat is an intelligent temperature control system used to maintain
 
 Based on the room temperature, the thermostat can:
 
+
 Increase Temperature when the room is too cold
+
 Keep Same when the room temperature is comfortable
+
 Decrease Temperature when the room is too hot
 
+
 The main objective of the thermostat is to keep the room in a comfortable state while avoiding extreme hot or cold conditions.
+
 
 This real-world scenario can be represented using a Markov Decision Process (MDP), where the next room condition depends on the current state and the action chosen by the thermostat.
 
