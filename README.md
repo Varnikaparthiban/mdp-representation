@@ -23,8 +23,10 @@ This real-world scenario can be represented using a Markov Decision Process (MDP
 {0,1,2}
 
 0 = Cold Room
+
 1 = Comfortable Room
-2 = Hot Roomm}
+
+2 = Hot Roomm
 
 ### Sample State
 {0} = Cold Room
@@ -33,7 +35,9 @@ This real-world scenario can be represented using a Markov Decision Process (MDP
 {0,1,2}
 
 0 = Increase Temperature
+
 1 = Keep Same
+
 2 = Decrease Temperature
 
 ### Sample Action
@@ -41,7 +45,9 @@ This real-world scenario can be represented using a Markov Decision Process (MDP
 
 ### Reward Function
 +1 : Room becomes Comfortable
+
 0 : No change in room condition
+
 -1 : Room becomes Too Hot or Too Cold
 
 ### Graphical Representation
